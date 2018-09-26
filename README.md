@@ -1,6 +1,6 @@
 # MeRoiЯ
 
-MeRoiЯ est un miroir connecté, affichant divers informations utiles à son utilisateur (météo, agendas, news, trafic, transports en commun...).
+MeRoiЯ est un miroir connecté, affichant diverses informations utiles à son utilisateur (météo, agendas, news, trafic, transports en commun...).
 
 Le dépôt contient deux parties distinctes : 
 * le dossier display contient l'affichage du miroir, développé en langages web (HTML, CSS, JS)
