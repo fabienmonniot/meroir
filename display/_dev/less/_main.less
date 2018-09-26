@@ -1,0 +1,282 @@
+body {
+    &.home {
+        main#main-content {
+            section {
+                &.blackout {
+                    position: absolute;
+                    z-index: 300;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    background: @black;
+                    .content {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        .translate(-50%, -50%);
+                        text-align: center;
+                        img {
+                            width: 350px;
+                        }
+                    }
+                }
+                &.loading {
+                    position: absolute;
+                    z-index: 100;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    background: @black;
+                    .content {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        .translate(-50%, -50%);
+                        text-align: center;
+                        img {
+                            width: 250px;
+                            margin-bottom: 20px;
+                        }
+                        h1 {
+                            font-family: 'Oswald', sans-serif;
+                            font-size: 44px;
+                            text-transform: none;
+                            font-weight: normal;
+                            text-align: center;
+                        }
+                    }
+                }
+                &.page2 {
+                    .weather {
+                        position: absolute;
+                        top: 30px;
+                        left: 150px;
+                        width: 100px;
+                        .translate(-50%, 0);
+                        a.weatherwidget-io {
+                            width: 100%;
+                        }
+                    }
+                    .transport {
+                        position: absolute;
+                        top: 225px;
+                        left: 50px;
+                        #map {
+                            width: 200px;
+                            height: 150px;
+                        }
+                        .public-transport {
+                            margin-top: 30px;
+                            & > h1 {
+                                font-size: 24px;
+                                text-transform: none;
+                                //letter-spacing: 2%;
+                            }
+                            .schedules-container {
+                                article {
+                                    margin-top: 20px;
+                                    &.schedule {
+                                        .number {
+                                            position: relative;
+                                            float: left;
+                                            width: 44px;
+                                            height: 44px;
+                                            margin-right: 10px;
+                                            border-radius: 50%;
+                                            background: @grey;
+                                            text-align: center;
+                                            font-family: 'Nunito', sans-serif;
+                                            font-size: 24px;
+                                            font-weight: bold;
+                                            span {
+                                                display: inline-block;
+                                                position: absolute;
+                                                top: 50%;
+                                                left: 50%;
+                                                .translate(-50%, -50%);
+                                            }
+                                        }
+                                        h1 {
+                                            font-family: 'Nunito', sans-serif;
+                                            font-size: 15px;
+                                            text-transform: none;
+                                            margin-bottom: 0;
+                                        }
+                                        p.next-schedules {
+                                            font-family: 'Oswald', sans-serif;
+                                            font-size: 20px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .large-map-container {
+                        display: none;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        .translate(-50%, -50%);
+                        text-align: center;
+                        #large-map {
+                            width: 610px;
+                            height: 480px;
+                        }
+                        .map-cancel {
+                            margin-top: 40px;
+                            width: 85px;
+                        }
+                    }
+                    .clock {
+                        position: absolute;
+                        z-index: 150;
+                        top: 20px;
+                        right: 50px;
+                        width: 200px;
+                        font-family: 'Oswald', sans-serif;
+                        text-transform: uppercase;
+                        text-align: center;
+                        .time {
+                            font-size: 82px;
+                            .hour {}
+                            .minute {}
+                        }
+                        .date {
+                            position: relative;
+                            bottom: 10px;
+                            font-size: 20px;
+                            .weekday {}
+                            .day {}
+                            .month {}
+                        }
+                    }
+                    .calendar {
+                        position: absolute;
+                        top: 190px;
+                        right: 50px;
+                        width: 200px;
+                        .titles {
+                            position: relative;
+                            height: 40px;
+                            background: @agendaBlue;
+                            h1 {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                .translate(-50%, -50%);
+                                width: 100%;
+                                font-family: 'Nunito', sans-serif;
+                                text-transform: uppercase;
+                                color: @white;
+                                text-align: center;
+                                font-size: 20px;
+                            }
+                            .leftBtn, .rightBtn {
+                                position: absolute;
+                                top: 50%;
+                                .translate(0, -50%);
+                                &::after {
+                                    content: ' ';
+                                    display: inline-block;
+                                    border-style: solid;
+                                }
+                                &.leftBtn {
+                                    left: 10px;
+                                    &::after {
+                                        border-width: 7px 15px 7px 0;
+                                        border-color: transparent @white transparent transparent;
+                                    }
+                                }
+                                &.rightBtn {
+                                    right: 10px;
+                                    &::after {
+                                        border-width: 7px 0 7px 15px;
+                                        border-color: transparent transparent transparent @white;
+                                    }
+                                }
+                            }
+                            #authorize-button {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                .translate(-50%, -50%);
+                                background: @agendaBlue;
+                                border: none;
+                                color: @white;
+                            }
+                        }
+                        .content {
+                            position: relative;
+                            padding: 10px;
+                            width: 100%;
+                            background: @white;
+                            overflow: hidden;
+                            .times {
+                                p {
+                                    margin: 5px 0;
+                                    color: @agendaGrey;
+                                    font-family: 'Nunito', sans-serif;
+                                    font-size: 15px;
+                                    &:first-child {
+                                        margin-top: 0;
+                                    }
+                                    &:last-child {
+                                        margin-bottom: 0;
+                                    }
+                                    &::after {
+                                        display: inline-block;
+                                        position: relative;
+                                        bottom: 5px;
+                                        left: 5px;
+                                        content:'';
+                                        width: 130px;
+                                        height: 1px;
+                                        background: @agendaGrey;
+                                    }
+                                }
+                            }
+                            .current-time {
+                                display: inline-block;
+                                z-index: 30;
+                                position: absolute;
+                                top: 10px;
+                                right: 15px;
+                                width: 130px;
+                                height: 2px;
+                                background: @agendaBlue;
+                                &::before {
+                                    content:"";
+                                    border-style: solid;
+                                    border-width: 5px 0 5px 10px;
+                                    border-color: transparent transparent transparent @agendaBlue;
+                                    position: absolute;
+                                    left: -10px;
+                                    .translate(5px, calc(-50% + 1px));
+                                }
+                            }
+                            .events {
+                                position: absolute;
+                                z-index: 20;
+                                top: 0;
+                                right: 15px;
+                                width: 130px;
+                                p {
+                                    display: none;
+                                    position: absolute;
+                                    top: 50px;
+                                    padding: 5px;
+                                    width: 100%;
+                                    background: @grey;
+                                    overflow: hidden;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

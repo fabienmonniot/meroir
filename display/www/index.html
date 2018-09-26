@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MeRoiЯ</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body class="home">
+
+<main id="main-content">
+    <section class="blackout">
+        <div class="content">
+            <img src="img/logo-white-large.svg" alt="MeRoiR">
+        </div>
+    </section>
+    <section class="loading">
+        <div class="content">
+            <img src="img/loading.svg" alt="Chargement en cours">
+            <h1>Reconnaissance faciale en cours...</h1>
+        </div>
+    </section>
+    <section class="page2">
+        <div class="weather">
+            <a class="weatherwidget-io"
+               href="https://forecast7.com/fr/44d80n0d59/talence/"
+               data-mode="Current"
+               data-theme="dark" ></a>
+        </div>
+        <div class="transport">
+            <div id="map"></div>
+            <div class="public-transport">
+                <h1>Prochains passages</h1>
+                <div class="schedules-container"></div>
+            </div>
+        </div>
+        <div class="large-map-container">
+            <div id="large-map"></div>
+            <img src="img/map_cancel.png" alt="Fermer" class="map-cancel">
+        </div>
+        <div class="clock">
+            <div class="time"></div>
+            <div class="date"><span class="weekday"></span> <span class="day"></span> <span class="month"></span></div>
+        </div>
+
+        <div class="calendar">
+                <div class="titles">
+                    <div class="leftBtn"></div>
+                    <div class="rightBtn"></div>
+                    <button id="authorize-button" style="display: none;">Authorize</button>
+                    <h1></h1>
+                </div>
+                <div class="content">
+                    <div class="times"></div>
+                    <div class="current-time"></div>
+                    <div class="events"></div>
+                </div>
+        </div>
+    </section>
+</main>
+
+<script src="js/libs.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script src="js/main.min.js"></script>
+
+<!-- Google Maps -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe5XDx3gXJNTmixrY8tqrJV_iMzdomNbc&callback=initMap"></script>
+
+<!-- Google Calendar -->
+<script async defer src="https://apis.google.com/js/api.js"
+        onload="this.onload=function(){};handleClientLoad()"
+        onreadystatechange="if (this.readyState === 'complete') this.onload()">
+</script>
+
+</body>
+</html>

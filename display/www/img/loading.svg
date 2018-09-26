@@ -1,0 +1,122 @@
+<svg width="294" height="195" viewBox="0 0 294 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Forme bizarre qui tourne</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1170 654)">
+<g id="Forme bizarre qui tourne">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(1170 -615)"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(1170 -615)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(1170 -615)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(1336 -654)"/>
+<mask id="mask1_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(1336 -654)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(1336 -654)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(1298 -550)"/>
+<mask id="mask2_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(1298 -550)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(1298 -550)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(1193 -482)"/>
+<mask id="mask3_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(1193 -482)"/>
+</mask>
+<g mask="url(#mask3_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(1193 -482)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(1370 -494)"/>
+<mask id="mask4_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(1370 -494)"/>
+</mask>
+<g mask="url(#mask4_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(1370 -494)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(1441 -592)"/>
+<mask id="mask5_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(1441 -592)"/>
+</mask>
+<g mask="url(#mask5_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(1441 -592)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Line">
+<use xlink:href="#path2_stroke" transform="matrix(0.973494 -0.228712 0.228712 0.973494 1182 -604)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path3_stroke" transform="matrix(0.170403 0.985374 -0.985374 0.170403 1182 -604)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path4_stroke" transform="matrix(0.340305 -0.940315 0.940315 0.340305 1310 -538)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path5_stroke" transform="matrix(-0.86109 -0.508453 0.508453 -0.86109 1453 -581)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path6_stroke" transform="matrix(0.99608 0.088455 -0.088455 0.99608 1182 -604)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path7_stroke" transform="matrix(0.639305 -0.768954 0.768954 0.639305 1205 -471)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path8_stroke" transform="matrix(-0.207859 -0.978159 0.978159 -0.207859 1382 -483)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path9_stroke" transform="matrix(0.8556 0.517638 -0.517638 0.8556 1182 -604)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path10_stroke" transform="matrix(0.891624 0.452778 -0.452778 0.891624 1182 -604)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path11_stroke" transform="matrix(0.959472 -0.281803 0.281803 0.959472 1310 -539)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path12_stroke" transform="matrix(0.58279 -0.812623 0.812623 0.58279 1382 -482)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path13_stroke" transform="matrix(0.839356 -0.543583 0.543583 0.839356 1205 -471)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path14_stroke" transform="matrix(0.998074 -0.0620272 0.0620272 0.998074 1205 -471)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path15_stroke" transform="matrix(-0.789352 -0.613941 0.613941 -0.789352 1382 -483)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 23 11.5C 23 17.8513 17.8513 23 11.5 23C 5.14873 23 0 17.8513 0 11.5C 0 5.14873 5.14873 0 11.5 0C 17.8513 0 23 5.14873 23 11.5Z"/>
+<path id="path1_stroke_2x" d="M 20 11.5C 20 16.1944 16.1944 20 11.5 20L 11.5 26C 19.5081 26 26 19.5081 26 11.5L 20 11.5ZM 11.5 20C 6.80558 20 3 16.1944 3 11.5L -3 11.5C -3 19.5081 3.49187 26 11.5 26L 11.5 20ZM 3 11.5C 3 6.80558 6.80558 3 11.5 3L 11.5 -3C 3.49187 -3 -3 3.49187 -3 11.5L 3 11.5ZM 11.5 3C 16.1944 3 20 6.80558 20 11.5L 26 11.5C 26 3.49187 19.5081 -3 11.5 -3L 11.5 3Z"/>
+<path id="path2_stroke" d="M 0 0L 170.52 0L 170.52 -3L 0 -3L 0 0Z"/>
+<path id="path3_stroke" d="M 0 0L 134.974 0L 134.974 -3L 0 -3L 0 0Z"/>
+<path id="path4_stroke" d="M 0 0L 111.665 0L 111.665 -3L 0 -3L 0 0Z"/>
+<path id="path5_stroke" d="M 0 0L 121.939 0L 121.939 -3L 0 -3L 0 0Z"/>
+<path id="path6_stroke" d="M 0 0L 260.019 0L 260.019 -1L 0 -1L 0 0Z"/>
+<path id="path7_stroke" d="M 0 0L 223.681 0L 223.681 -1L 0 -1L 0 0Z"/>
+<path id="path8_stroke" d="M 0 0L 163.573 0L 163.573 -1L 0 -1L 0 0Z"/>
+<path id="path9_stroke" d="M 0 -5.55112e-17L 233.754 -5.55112e-17L 233.754 -1L 0 -1L 0 -5.55112e-17Z"/>
+<path id="path10_stroke" d="M 0 0L 143.558 0L 143.558 -3L 0 -3L 0 0Z"/>
+<path id="path11_stroke" d="M 0 0L 149.04 0L 149.04 -3L 0 -3L 0 0Z"/>
+<path id="path12_stroke" d="M 0 0L 121.828 0L 121.828 -3L 0 -3L 0 0Z"/>
+<path id="path13_stroke" d="M 0 0L 125.096 0L 125.096 -3L 0 -3L 0 0Z"/>
+<path id="path14_stroke" d="M 0 0L 177.341 0L 177.341 -3L 0 -3L 0 0Z"/>
+<path id="path15_stroke" d="M 0 0L 91.214 0L 91.214 -3L 0 -3L 0 0Z"/>
+</defs>
+</svg>

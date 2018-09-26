@@ -1,0 +1,75 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: @white;
+    background: @black;
+}
+
+h1 {
+    font-family: 'Oswald', serif;
+    font-weight: 300;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Oswald', serif;
+    font-size: 2.5em;
+}
+h3 {
+    font-family: 'Oswald', serif;
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.618em;
+}
+
+a {
+    color: @black;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+::-webkit-input-placeholder {
+    color: @grey;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: @grey;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: @grey;
+}
+
+:-ms-input-placeholder {  
+    color: @grey;
+}
+
+figure.figure-background {
+    position: relative;
+    img {
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        .translate(-50%, -50%);
+    }
+}
+
+/* Colors */
+.white {
+    color: @white;
+}
+.black {
+    color: @black;
+}

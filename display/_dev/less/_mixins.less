@@ -1,0 +1,16 @@
+.translate(@x, @y) {
+    -ms-transform: translate(@x, @y); /* IE 9 */
+    -webkit-transform: translate(@x, @y); /* Chrome, Safari, Opera */
+    transform: translate(@x, @y);
+}
+
+.rotate(@deg) {
+    -ms-transform: rotate(@deg);
+    -webkit-transform: rotate(@deg);
+    transform: rotate(@deg);
+}
+
+.transition(@property, @ease, @time) {
+    -webkit-transition: @arguments; 
+    transition: @arguments;
+}

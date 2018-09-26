@@ -1,0 +1,8 @@
+{
+    "name": "fabienmonniot",
+    "dependencies": {
+        "jquery": "latest",
+        "bootstrap": "latest",
+        "modernizr": "latest"
+    }
+}
